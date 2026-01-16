@@ -15,8 +15,9 @@ Português: Materiais autorais de estudo e prática realizados durante formaçõ
 * [Lógica de Programação](Formacoes/Logica-de-Programacao/) — Done — Normal
 * [GitHub Certification](Formacoes/GitHub-Certification/) — Done — Normal
 * [Python Fundamentals](Formacoes/Python-Fundamentals/) — Done — Normal
-* [Linux Fundamentals](Formacoes/Linux-Fundamentals/) — —
+* [Linux Fundamentals](Formacoes/Linux-Fundamentals/) — Stand-by —
 * [Java Fundamentals](Formacoes/Java-Fundamentals/) — — Normal
+* [Formação AWS CLF-02 Practitioner]() — Stand-by —
 
 ### intermediate
 
@@ -26,9 +27,8 @@ Português: Materiais autorais de estudo e prática realizados durante formaçõ
 * [Python Backend](Formacoes/Python-Backend/) — —
 * [Docker Fundamentals](Formacoes/Docker-Fundamentals/) — —
 * [Kubernetes Fundamentals](Formacoes/Kubernetes-Fundamentals/) — —
-* [AWS Cloud Practitioner](Formacoes/AWS-Cloud-Practitioner/) — —
-* [Fundamentos de IA](Formacoes/Fundamentos-de-IA/) — —
-* [ChatGPT para Desenvolvedores](Formacoes/ChatGPT-para-Desenvolvedores/) — —
+* [AWS Cloud Practitioner](Formacoes/AWS-Cloud-Practitioner/) — Stand-by —
+* [Fundamentos de IA](Formacoes/Fundamentos-de-IA/) — Done — Bad
 
 ### advanced
 
@@ -36,8 +36,7 @@ Português: Materiais autorais de estudo e prática realizados durante formaçõ
 * [SQL Specialist](Formacoes/SQL-Specialist/) — —
 * [Machine Learning Specialist](Formacoes/Machine-Learning-Specialist/) — —
 * [Programação Reativa com Spring WebFlux](Formacoes/Programacao-Reativa-Spring-WebFlux/) — —
-* [IoT](Formacoes/IoT/) — — Bad
-
+* [IoT](Formacoes/IoT/) — Progress — Bad
 
 
 ## Bootcamps
