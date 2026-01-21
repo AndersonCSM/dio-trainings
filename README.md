@@ -16,27 +16,27 @@ Português: Materiais autorais de estudo e prática realizados durante formaçõ
 * [GitHub Certification](Formacoes/GitHub-Certification/) — Done — Normal
 * [Python Fundamentals](Formacoes/Python-Fundamentals/) — Done — Normal
 * [Linux Fundamentals](Formacoes/Linux-Fundamentals/) — Stand-by —
-* [Java Fundamentals](Formacoes/Java-Fundamentals/) — — Normal
+* [Java Fundamentals](Formacoes/Java-Fundamentals/) — Progress — Normal
 * [Formação AWS CLF-02 Practitioner]() — Stand-by —
 
 ### intermediate
 
 * [C/C++ Developer](Formacoes/C-Cpp-Developer/) — Done — Normal
-* [Java Developer](Formacoes/Java-Developer/) — —
-* [Power BI](Formacoes/Power-BI/) — —
-* [Python Backend](Formacoes/Python-Backend/) — —
-* [Docker Fundamentals](Formacoes/Docker-Fundamentals/) — —
-* [Kubernetes Fundamentals](Formacoes/Kubernetes-Fundamentals/) — —
+* [Java Developer](Formacoes/Java-Developer/) — 5 —
+* [Power BI](Formacoes/Power-BI/) — 4 —
+* [Python Backend](Formacoes/Python-Backend/) — 3 —
+* [Docker Fundamentals](Formacoes/Docker-Fundamentals/) — 1 —
+* [Kubernetes Fundamentals](Formacoes/Kubernetes-Fundamentals/) — 2 —
 * [AWS Cloud Practitioner](Formacoes/AWS-Cloud-Practitioner/) — Stand-by —
 * [Fundamentos de IA](Formacoes/Fundamentos-de-IA/) — Done — Bad
 
 ### advanced
 
 * [Scrum Master](Formacoes/Scrum-Master/) — Done — Good
-* [SQL Specialist](Formacoes/SQL-Specialist/) — —
-* [Machine Learning Specialist](Formacoes/Machine-Learning-Specialist/) — —
-* [Programação Reativa com Spring WebFlux](Formacoes/Programacao-Reativa-Spring-WebFlux/) — —
-* [IoT](Formacoes/IoT/) — Progress — Bad
+* [SQL Specialist](Formacoes/SQL-Specialist/) — Progress —
+* [Machine Learning Specialist](Formacoes/Machine-Learning-Specialist/) — 7 —
+* [Programação Reativa com Spring WebFlux](Formacoes/Programacao-Reativa-Spring-WebFlux/) — 6 —
+* [IoT](Formacoes/IoT/) — Stand-by — Bad
 
 
 ## Bootcamps
