@@ -4,61 +4,54 @@ Repository for Digital Innovation One (DIO) training materials
 
 ## About
 
-English: Curated notes, exercises, and personal projects developed while completing DIO trainings. Everything here reflects hands-on practice and personal study rather than copied course content.
+**English:** Curated notes, exercises, and personal projects developed while completing DIO trainings. Everything here reflects hands-on practice and personal study rather than copied course content.
 
-Português: Materiais autorais de estudo e prática realizados durante formações e desafios da DIO, organizados para fins educacionais e de portfólio.
+**Português:** Materiais autorais de estudo e prática realizados durante formações e desafios da DIO, organizados para fins educacionais e de portfólio.
 
 ## Formações
 
 ### beginner
 
-* [Lógica de Programação](Formacoes/Logica-de-Programacao/) — Done — Normal
-* [GitHub Certification](Formacoes/GitHub-Certification/) — Done — Normal
-* [Python Fundamentals](Formacoes/Python-Fundamentals/) — Done — Normal
-* [Linux Fundamentals](Formacoes/Linux-Fundamentals/) — Stand-by —
-* [Java Fundamentals](Formacoes/Java-Fundamentals/) — Progress — Normal
-* [Formação AWS CLF-02 Practitioner]() — Stand-by —
+* [Lógica de Programação](Formacoes/Logica-de-Programacao/) — Done
+* [GitHub Certification](Formacoes/GitHub-Certification/) — Done
+* [Python Fundamentals](Formacoes/Python-Fundamentals/) — Done
+* [Linux Fundamentals](Formacoes/Linux-Fundamentals/) — Progress
+* [Java Fundamentals](Formacoes/Java-Fundamentals/) — Progress
 
 ### intermediate
 
-* [C/C++ Developer](Formacoes/C-Cpp-Developer/) — Done — Normal
-* [Java Developer](Formacoes/Java-Developer/) — 5 —
-* [Power BI](Formacoes/Power-BI/) — 4 —
-* [Python Backend](Formacoes/Python-Backend/) — 3 —
-* [Docker Fundamentals](Formacoes/Docker-Fundamentals/) — 1 —
-* [Kubernetes Fundamentals](Formacoes/Kubernetes-Fundamentals/) — 2 —
-* [AWS Cloud Practitioner](Formacoes/AWS-Cloud-Practitioner/) — Stand-by —
-* [Fundamentos de IA](Formacoes/Fundamentos-de-IA/) — Done — Bad
+* [C/C++ Developer](Formacoes/C-Cpp-Developer/) — Done
+* [Java Developer](Formacoes/Java-Developer/) — 5
+* [Docker Fundamentals](Formacoes/Docker-Fundamentals/) — 1
+* [Kubernetes Fundamentals](Formacoes/Kubernetes-Fundamentals/) — 2
+* [Fundamentos de IA](Formacoes/Fundamentos-de-IA/) — Done
 
 ### advanced
 
-* [Scrum Master](Formacoes/Scrum-Master/) — Done — Good
-* [SQL Specialist](Formacoes/SQL-Specialist/) — Progress —
-* [Machine Learning Specialist](Formacoes/Machine-Learning-Specialist/) — 7 —
-* [Programação Reativa com Spring WebFlux](Formacoes/Programacao-Reativa-Spring-WebFlux/) — 6 —
-* [IoT](Formacoes/IoT/) — Stand-by — Bad
+* [Scrum Master](Formacoes/Scrum-Master/) — Done
+* [SQL Specialist](Formacoes/SQL-Specialist/) — Progress
+* [Programação Reativa com Spring WebFlux](Formacoes/Programacao-Reativa-Spring-WebFlux/) — 6
 
 
+## Stand-by
+### beginner
+* [AWS CLF-02 Practitioner]()
+
+### intermediate
+* [Power BI](Formacoes/Power-BI/)
+* [Python Backend](Formacoes/Python-Backend/)
+* [AWS Cloud Practitioner](Formacoes/AWS-Cloud-Practitioner/) 
+
+### advanced
+* [Machine Learning Specialist](Formacoes/Machine-Learning-Specialist/)
+* [IoT](Formacoes/IoT/)
+---
 ## Bootcamps
 
 ### beginner
-
 * Santander - Linux para iniciantes
 * Linux do Zero
-* Santander - Preparatório Certificação AWS
 * Santander - Automação N8N
-
-* Klabin - Análise de dados com Excel e Power Bi
-* Suzano - Análise de Dados com Power Bi
-* Bradesco - GenAI \& Dados
-* Santander - Ciência de Dados com Python
-* Database Experience
-* Unimed-BH - Ciência de dados
-* IFood - Ciência de dados com Python
-
-* Luizalabs - Backend com Python
-* Vivo - Python AI backend Developer
-
 * Riachuelo - Primeiros passos com Java
 * GFT - Start Java
 * Accenture - Java \& Cloud
@@ -70,21 +63,8 @@ Português: Materiais autorais de estudo e prática realizados durante formaçõ
 * Quebec - Java Digital
 
 ### intermediate
-
 * Bootcamp Cloud AWS
 * Linux Experience 
-
-* Sysvision - Data Analytics com Power Bi
-* Neo4j - Análise de dados com Grafos
-* Randstad - Análise de dados
-* NTT DATA - Engenharia de Dados com Python
-* Squadio - Python Data Analytics
-* Santander Bootcamp 2023 - Ciência de dados
-* Banco Carrefour - Data Engineer
-
-* Santander - Backend com Python
-* Suzano - Python DEveloper
-
 * Santander - Backend com Java
 * Avanade - Decola Tech
 * Bradesco - Java Cloud Native
@@ -108,17 +88,46 @@ Português: Materiais autorais de estudo e prática realizados durante formaçõ
 * Banco Carrefour - Back-end Developer
 
 ### advanced
-
-* Cognizant - Cloud Data Engineer 2
-
-* BairesDev - Machine Learning Traning
-* BairesDev - Machine Learning Practitioner
-
 * Deal - Spring Boot e Angular (17+)
 * Claro - Java com Spring Boot
 * Tonne - Java IA Powered
 * Cognizant - Arquitetura com Spring e Cloud
 
+---
+## Stand-by
+### beginner
+* Santander - Preparatório Certificação AWS
+
+* Klabin - Análise de dados com Excel e Power Bi
+* Suzano - Análise de Dados com Power Bi
+* Bradesco - GenAI \& Dados
+* Santander - Ciência de Dados com Python
+* Database Experience
+* Unimed-BH - Ciência de dados
+* IFood - Ciência de dados com Python
+
+* Luizalabs - Backend com Python
+* Vivo - Python AI backend Developer
+
+### intermediate
+* Sysvision - Data Analytics com Power Bi
+* Neo4j - Análise de dados com Grafos
+* Randstad - Análise de dados
+* NTT DATA - Engenharia de Dados com Python
+* Squadio - Python Data Analytics
+* Santander Bootcamp 2023 - Ciência de dados
+* Banco Carrefour - Data Engineer
+
+* Santander - Backend com Python
+* Suzano - Python DEveloper
+
+### advanced
+* Cognizant - Cloud Data Engineer 2
+
+* BairesDev - Machine Learning Traning
+* BairesDev - Machine Learning Practitioner
+
+---
 ## CodeCamps
 
 * Codecamp 2nd Edition
