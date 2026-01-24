@@ -15,24 +15,24 @@ Repository for Digital Innovation One (DIO) training materials
 * [Lógica de Programação](Formacoes/Logica-de-Programacao/) — Done
 * [GitHub Certification](Formacoes/GitHub-Certification/) — Done
 * [Python Fundamentals](Formacoes/Python-Fundamentals/) — Done
-* [Linux Fundamentals](Formacoes/Linux-Fundamentals/) — Progress
-* [Java Fundamentals](Formacoes/Java-Fundamentals/) — Progress
+* [Linux Fundamentals](Formacoes/Linux-Fundamentals/) — Progress - 4d
+* [Java Fundamentals](Formacoes/Java-Fundamentals/) — Progress - 11d
 
 ### intermediate
 
 * [C/C++ Developer](Formacoes/C-Cpp-Developer/) — Done
-* [Java Developer](Formacoes/Java-Developer/) — 5
-* [Docker Fundamentals](Formacoes/Docker-Fundamentals/) — 1
-* [Kubernetes Fundamentals](Formacoes/Kubernetes-Fundamentals/) — 2
+* [Java Developer](Formacoes/Java-Developer/) — 43d
+* [Docker Fundamentals](Formacoes/Docker-Fundamentals/) — 6d
+* [Kubernetes Fundamentals](Formacoes/Kubernetes-Fundamentals/) — 8d
 * [Fundamentos de IA](Formacoes/Fundamentos-de-IA/) — Done
 
 ### advanced
 
 * [Scrum Master](Formacoes/Scrum-Master/) — Done
-* [SQL Specialist](Formacoes/SQL-Specialist/) — Progress
-* [Programação Reativa com Spring WebFlux](Formacoes/Programacao-Reativa-Spring-WebFlux/) — 6
+* [SQL Specialist](Formacoes/SQL-Specialist/) — 33d
+* [Programação Reativa com Spring WebFlux](Formacoes/Programacao-Reativa-Spring-WebFlux/) — 20d
 
-
+---
 ## Stand-by
 ### beginner
 * [AWS CLF-02 Practitioner]()
