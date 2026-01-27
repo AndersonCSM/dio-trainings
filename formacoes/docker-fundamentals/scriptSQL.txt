@@ -1,0 +1,15 @@
+create database aula;
+
+use aula;
+
+create table alunos(
+	aluno_id int,
+	nome varchar(50),
+	sobrenome varchar(50),
+	endereco varchar(150),
+	cidade varchar(50)
+);
+
+insert into alunos (aluno_id, nome, sobrenome, endereco, cidade) values (1, "Carlos", "Alberto", "Av. que sobe e desce", "Manaus");
+
+select * from alunos;
