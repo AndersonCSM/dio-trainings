@@ -15,7 +15,7 @@ Repository for Digital Innovation One (DIO) training materials
 * [Lógica de Programação](formacoes/logica-de-programacao/) — Done
 * [GitHub Certification](formacoes/github-certification/) — Done
 * [Python Fundamentals](formacoes/python-fundamentals/) — Done
-* [Linux Fundamentals](formacoes/linux-fundamentals/) — Progress - 4d
+* [Linux Fundamentals](formacoes/linux-fundamentals/) — Done
 * [Java Fundamentals](formacoes/java-fundamentals/) — Progress - 11d
 
 ### intermediate
