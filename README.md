@@ -30,7 +30,6 @@ Repository for Digital Innovation One (DIO) training materials
 
 * [Scrum Master](formacoes/scrum-master/) — Done
 * [SQL Specialist](formacoes/sql-specialist/) — 33d
-* [Programação Reativa com Spring WebFlux](formacoes/programacao-reativa-spring-webflux/) — 20d
 
 ---
 ## Stand-by
@@ -45,6 +44,7 @@ Repository for Digital Innovation One (DIO) training materials
 ### advanced
 * [Machine Learning Specialist](formacoes/machine-learning-specialist/)
 * [IoT](formacoes/iot/)
+* [Programação Reativa com Spring WebFlux](formacoes/programacao-reativa-spring-webflux/)
 ---
 ## Bootcamps
 
