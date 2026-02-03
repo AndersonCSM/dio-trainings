@@ -131,7 +131,3 @@ Repository for Digital Innovation One (DIO) training materials
 ## CodeCamps
 
 * Codecamp 2nd Edition
-
-## Contact
-
-* Email: andersoncarlos799@gmail.com
