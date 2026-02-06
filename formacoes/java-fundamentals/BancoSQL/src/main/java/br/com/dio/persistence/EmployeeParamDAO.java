@@ -1,18 +1,17 @@
 package br.com.dio.persistence;
 
-import br.com.dio.persistence.entity.ContactEntity;
-import br.com.dio.persistence.entity.EmployeeEntity;
-import br.com.dio.persistence.entity.ModuleEntity;
-
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.sql.Timestamp;
 import java.time.OffsetDateTime;
+import static java.time.ZoneOffset.UTC;
 import java.util.ArrayList;
 import java.util.List;
-
-import static java.time.ZoneOffset.UTC;
 import static java.util.TimeZone.LONG;
+
+import br.com.dio.persistence.entity.ContactEntity;
+import br.com.dio.persistence.entity.EmployeeEntity;
+import br.com.dio.persistence.entity.ModuleEntity;
 
 /**
  * DAO (Data Access Object) para gerenciar operações de funcionários usando PreparedStatement.
@@ -66,9 +65,12 @@ public class EmployeeParamDAO {
             }
             
             // Para cada módulo associado ao funcionário, cria o relacionamento na tabela accesses
-            entity.getModules().stream()
-                    .map(ModuleEntity::getId)
-                    .forEach(m -> accessDAO.insert(entity.getId(), m));
+            // Verifica se a lista de módulos não é nula antes de processar
+            if (entity.getModules() != null) {
+                entity.getModules().stream()
+                        .map(ModuleEntity::getId)
+                        .forEach(m -> accessDAO.insert(entity.getId(), m));
+            }
         }catch (SQLException ex){
             ex.printStackTrace();
         }

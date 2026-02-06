@@ -1,20 +1,47 @@
 package br.com.dio.persistence;
 
-import br.com.dio.persistence.entity.EmployeeEntity;
-import br.com.dio.persistence.entity.ModuleEntity;
-
 import java.sql.SQLException;
 import java.time.OffsetDateTime;
+import static java.time.ZoneOffset.UTC;
 import java.util.ArrayList;
 import java.util.List;
 
-import static java.time.ZoneOffset.UTC;
+import br.com.dio.persistence.entity.EmployeeEntity;
+import br.com.dio.persistence.entity.ModuleEntity;
 
 /**
  * DAO para gerenciar módulos de treinamento e seus funcionários associados.
  * Demonstra como lidar com relacionamento N:N usando JOINs em JDBC.
  */
 public class ModuleDAO {
+
+    /**
+     * Busca apenas os IDs e nomes dos módulos sem filtrar por funcionários.
+     * Útil para validar quais módulos existem antes de associar a funcionários.
+     * 
+     * @return Lista com todos os módulos (sem funcionários)
+     */
+    public List<ModuleEntity> findAllModules() {
+        List<ModuleEntity> entities = new ArrayList<>();
+        var sql = "SELECT id, name FROM modules ORDER BY id";
+        
+        try(
+            var connection = ConnectionUtil.getConnection();
+            var statement = connection.prepareStatement(sql)
+        ){
+            var resultSet = statement.executeQuery();
+            
+            while (resultSet.next()) {
+                ModuleEntity module = new ModuleEntity();
+                module.setId(resultSet.getLong("id"));
+                module.setName(resultSet.getString("name"));
+                entities.add(module);
+            }
+        } catch (SQLException ex) {
+            ex.printStackTrace();
+        }
+        return entities;
+    }
 
     /**
      * Busca todos os módulos com seus respectivos funcionários.

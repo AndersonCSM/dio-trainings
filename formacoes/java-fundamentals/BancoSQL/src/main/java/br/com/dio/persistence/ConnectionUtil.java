@@ -1,15 +1,13 @@
 package br.com.dio.persistence;
 
-import lombok.NoArgsConstructor;
-
-import java.io.FileInputStream;
 import java.io.IOException;
 import java.sql.Connection;
-import java.sql.SQLException;
 import java.sql.DriverManager;
+import java.sql.SQLException;
 import java.util.Properties;
 
 import static lombok.AccessLevel.PRIVATE;
+import lombok.NoArgsConstructor;
 
 /**
  * Utilitário para gerenciar conexões com o banco de dados.
@@ -35,10 +33,13 @@ public class ConnectionUtil {
         // Objeto para armazenar as propriedades do arquivo
         Properties props = new Properties();
 
-        // Try-with-resources: fecha automaticamente o FileInputStream
-        try (FileInputStream fis = new FileInputStream("db.properties")){
+        // Try-with-resources: carrega o arquivo a partir do classpath (src/main/resources)
+        try (var resourceStream = ConnectionUtil.class.getClassLoader().getResourceAsStream("db.properties")){
+            if (resourceStream == null) {
+                throw new RuntimeException("Arquivo db.properties não encontrado no classpath");
+            }
             // Carrega as propriedades do arquivo (formato chave=valor)
-            props.load(fis);
+            props.load(resourceStream);
         } catch (IOException e){
             throw new RuntimeException("Erro ao carregar arquivo de configuração", e);
         }
